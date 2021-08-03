@@ -1,0 +1,50 @@
+{
+  "name": "epicerie",
+  "version": "1.0.0",
+  "description": "a simple webapp that provides users with an ability to keep track of shopping lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claudiathefirst/epicerie.git"
+  },
+  "author": "Claudia Saimbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Claudiathefirst/epicerie/issues"
+  },
+  "homepage": "https://github.com/Claudiathefirst/epicerie#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.4.1",
+    "history": "^5.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
